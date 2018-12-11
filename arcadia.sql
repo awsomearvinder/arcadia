@@ -29,9 +29,9 @@ CREATE TABLE IF NOT EXISTS `badwords` (
 --
 
 INSERT INTO `badwords` (`ID`, `words`) VALUES
-(1, 'gosh'),
-(2, 'fuck'),
-(3, 'shit'),
+(1, ''),
+(2, ''),
+(3, ''),
 (4, 'testbadword');
 
 -- --------------------------------------------------------
@@ -109,7 +109,6 @@ INSERT INTO `responses` (`id`, `message`, `response`) VALUES
 (41, '!4th', '*Chucks water balloons at: |names|  Happy Independence Day! :D God Bless America!  *Launches fireworks*'),
 (42, '.die', '/kick |nick| haha.. no.'),
 (43, '!translate', '翻訳サーバー エラー'),
-(44, '!sajoin', '/quote sajoin Bart_Roberts #main'),
 (45, '!joinbart', 'SAJOIN Bart_Roberts #main'),
 (46, '!boss', 'Captain_Harlock is the boss.'),
 (47, '!hi', 'Hey!'),
@@ -119,7 +118,6 @@ INSERT INTO `responses` (`id`, `message`, `response`) VALUES
 (54, 'marco', 'polo!'),
 (55, 'marko', 'Polo!'),
 (56, 'Marco!', 'Polo!'),
-(57, '!rules', 'http://christianlifefm.com/chatrules.php');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
